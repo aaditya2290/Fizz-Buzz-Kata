@@ -6,8 +6,11 @@ public class FizzBuzz {
 	{
 		if (fizzBuzzInput%3==0)
 			return "Fizz";
-		else	
-			return String.valueOf(fizzBuzzInput);
+		else
+			if (fizzBuzzInput%5==0)
+				return "Buzz";
+			else	
+				return String.valueOf(fizzBuzzInput);
 	}
 
 }

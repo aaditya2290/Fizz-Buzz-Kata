@@ -29,4 +29,10 @@ public class FizzBuzzTest {
 		assertEquals("Fizz",fizzBuzz.convert(9));
 	}
 
+	@Test
+	public void testForMultiplesOfFive()
+	{
+		assertEquals("Buzz",fizzBuzz.convert(10));
+	}
+
 }
