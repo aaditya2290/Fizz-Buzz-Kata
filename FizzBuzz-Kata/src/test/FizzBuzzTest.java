@@ -41,4 +41,11 @@ public class FizzBuzzTest {
 		assertEquals("FizzBuzz",fizzBuzz.convert(30));
 	}
 
+	@Test
+	public void testForInvalidInputs()
+	{
+		assertEquals("Please enter input between 1 and 100.",fizzBuzz.convert(-3));
+		assertEquals("Please enter input between 1 and 100.",fizzBuzz.convert(300));
+	}
+
 }
