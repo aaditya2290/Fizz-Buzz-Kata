@@ -35,4 +35,10 @@ public class FizzBuzzTest {
 		assertEquals("Buzz",fizzBuzz.convert(10));
 	}
 
+	@Test
+	public void testForMultiplesOfThreeAndFive()
+	{
+		assertEquals("FizzBuzz",fizzBuzz.convert(30));
+	}
+
 }
