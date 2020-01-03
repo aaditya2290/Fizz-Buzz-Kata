@@ -19,8 +19,14 @@ public class FizzBuzzTest {
 	@Test
 	public void testForOtherNumbers()
 	{
-		assertEquals(1,fizzBuzz.convert(1));
-		assertEquals(2,fizzBuzz.convert(2));
+		assertEquals("1",fizzBuzz.convert(1));
+		assertEquals("2",fizzBuzz.convert(2));
+	}
+
+	@Test
+	public void testForMultiplesOfThree()
+	{
+		assertEquals("Fizz",fizzBuzz.convert(9));
 	}
 
 }

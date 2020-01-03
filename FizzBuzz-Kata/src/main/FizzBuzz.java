@@ -2,9 +2,12 @@ package main;
 
 public class FizzBuzz {
 
-	public int convert(int fizzBuzzInput)
+	public String convert(int fizzBuzzInput)
 	{
-		return fizzBuzzInput;
+		if (fizzBuzzInput%3==0)
+			return "Fizz";
+		else	
+			return String.valueOf(fizzBuzzInput);
 	}
 
 }
