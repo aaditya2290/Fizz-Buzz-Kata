@@ -20,6 +20,7 @@ public class FizzBuzzTest {
 	public void testForOtherNumbers()
 	{
 		assertEquals(1,fizzBuzz.convert(1));
+		assertEquals(2,fizzBuzz.convert(2));
 	}
 
 }
