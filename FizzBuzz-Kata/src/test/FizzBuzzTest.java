@@ -48,4 +48,11 @@ public class FizzBuzzTest {
 		assertEquals("Please enter input between 1 and 100.",fizzBuzz.convert(300));
 	}
 
+	@Test
+	public void printResultForNumbersFrom1To100()
+	{
+		for (int i=1;i<=100;i++)
+			System.out.println(fizzBuzz.convert(i));
+	}
+
 }
